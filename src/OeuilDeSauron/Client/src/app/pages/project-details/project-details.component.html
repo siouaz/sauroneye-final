@@ -1,0 +1,75 @@
+<div class="grid">
+    <div class="col-12">
+        <div class="card">
+            <div class="row">
+                <div class="col-xl">
+                    <div class="card">
+                        <div class="card-body pt-3">
+                           
+                            <style>
+                                .table {
+                                    border-collapse: separate;
+        border-spacing: 10px 10px;
+                                    width: 100%;
+                                    border-collapse: collapse;
+                                }
+                            
+                                .table th,
+                                .table td {
+                                    border: 1px solid #ddd; /* Add border to table cells */
+                                    padding: 8px;
+                                }
+                            
+                                .table th {
+                                    text-align: center;
+                                    background-color: #f2f2f2;
+                                }
+                            </style>
+                            
+                            
+                            <div class="tab-content pt-2">
+                                <div class="tab-pane fade show active profile-overview" id="profile-overview">
+                                    <table class="table">
+                                        <tbody>
+                                            <tr>
+                                                <td class="label">Id:</td>
+                                                <td>{{project?.id}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="label"> Project Name:</td>
+                                                <td>{{project?.name}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="label">Health Check URL:</td>
+                                                <td>{{project?.healthcheckUrl}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="label">Site URL:</td>
+                                                <td>{{project?.siteUrl}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="label">Assigned To:</td>
+                                                <td>{{project?.assignedTo}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="label">Timeout:</td>
+                                                <td>{{project?.maxResponseTimeInSecond}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="label">Duration In Minute:</td>
+                                                <td>{{project?.durationInMinute}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="label">Header:</td>
+                                                <td>{{project?.headerSerialized}}</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            
+                    </div>
+
+                </div>
+            </div>
+            

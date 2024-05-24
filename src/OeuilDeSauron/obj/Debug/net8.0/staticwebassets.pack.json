@@ -1,0 +1,845 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\239.c45f491ec4b1b9f1.js",
+      "PackagePath": "staticwebassets\\239.c45f491ec4b1b9f1.js"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\300.79364d631816f90d.js",
+      "PackagePath": "staticwebassets\\300.79364d631816f90d.js"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\345.7f20f4c55a1ec838.js",
+      "PackagePath": "staticwebassets\\345.7f20f4c55a1ec838.js"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\393.c0435367a7f9aa80.js",
+      "PackagePath": "staticwebassets\\393.c0435367a7f9aa80.js"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\651.821e98b89b5e23ca.js",
+      "PackagePath": "staticwebassets\\651.821e98b89b5e23ca.js"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\808.1a53296b325bfe1b.js",
+      "PackagePath": "staticwebassets\\808.1a53296b325bfe1b.js"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\874.604f36b3be068301.js",
+      "PackagePath": "staticwebassets\\874.604f36b3be068301.js"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\data\\countries.json",
+      "PackagePath": "staticwebassets\\assets\\demo\\data\\countries.json"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\data\\customers-large.json",
+      "PackagePath": "staticwebassets\\assets\\demo\\data\\customers-large.json"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\data\\customers-medium.json",
+      "PackagePath": "staticwebassets\\assets\\demo\\data\\customers-medium.json"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\data\\customers-small.json",
+      "PackagePath": "staticwebassets\\assets\\demo\\data\\customers-small.json"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\data\\files-lazy.json",
+      "PackagePath": "staticwebassets\\assets\\demo\\data\\files-lazy.json"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\data\\files.json",
+      "PackagePath": "staticwebassets\\assets\\demo\\data\\files.json"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\data\\filesystem-lazy.json",
+      "PackagePath": "staticwebassets\\assets\\demo\\data\\filesystem-lazy.json"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\data\\filesystem.json",
+      "PackagePath": "staticwebassets\\assets\\demo\\data\\filesystem.json"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\data\\icons.json",
+      "PackagePath": "staticwebassets\\assets\\demo\\data\\icons.json"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\data\\photos.json",
+      "PackagePath": "staticwebassets\\assets\\demo\\data\\photos.json"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\data\\products-mixed.json",
+      "PackagePath": "staticwebassets\\assets\\demo\\data\\products-mixed.json"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\data\\products-orders-small.json",
+      "PackagePath": "staticwebassets\\assets\\demo\\data\\products-orders-small.json"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\data\\products-orders.json",
+      "PackagePath": "staticwebassets\\assets\\demo\\data\\products-orders.json"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\data\\products-small.json",
+      "PackagePath": "staticwebassets\\assets\\demo\\data\\products-small.json"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\data\\products.json",
+      "PackagePath": "staticwebassets\\assets\\demo\\data\\products.json"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\data\\scheduleevents.json",
+      "PackagePath": "staticwebassets\\assets\\demo\\data\\scheduleevents.json"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\access\\asset-access.svg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\access\\asset-access.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\access\\logo-orange.svg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\access\\logo-orange.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\avatar\\amyelsner.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\avatar\\amyelsner.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\avatar\\annafali.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\avatar\\annafali.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\avatar\\asiyajavayant.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\avatar\\asiyajavayant.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\avatar\\bernardodominic.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\avatar\\bernardodominic.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\avatar\\elwinsharvill.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\avatar\\elwinsharvill.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\avatar\\ionibowcher.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\avatar\\ionibowcher.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\avatar\\ivanmagalhaes.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\avatar\\ivanmagalhaes.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\avatar\\onyamalimba.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\avatar\\onyamalimba.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\avatar\\profile.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\avatar\\profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\avatar\\stephenshaw.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\avatar\\stephenshaw.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\avatar\\xuxuefeng.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\avatar\\xuxuefeng.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\blocks\\hero\\hero-1.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\blocks\\hero\\hero-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\blocks\\logos\\hyper.svg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\blocks\\logos\\hyper.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\error\\asset-error.svg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\error\\asset-error.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\error\\logo-error.svg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\error\\logo-error.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\flag\\flag_placeholder.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\flag\\flag_placeholder.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria1.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria10.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria10s.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria10s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria11.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria11s.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria11s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria12.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria12s.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria12s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria13.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria13s.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria13s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria14.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria14s.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria14s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria15.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria15s.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria15s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria1s.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria1s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria2.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria2s.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria2s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria3.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria3s.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria3s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria4.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria4s.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria4s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria5.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria5s.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria5s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria6.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria6s.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria6s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria7.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria7s.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria7s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria8.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria8s.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria8s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria9.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\galleria\\galleria9s.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\galleria\\galleria9s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\landing\\enterprise.svg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\landing\\enterprise.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\landing\\free.svg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\landing\\free.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\landing\\mockup-desktop.svg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\landing\\mockup-desktop.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\landing\\mockup.svg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\landing\\mockup.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\landing\\new-badge.svg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\landing\\new-badge.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\landing\\peak-logo.svg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\landing\\peak-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\landing\\screen-1.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\landing\\screen-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\landing\\startup.svg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\landing\\startup.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\login\\avatar.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\login\\avatar.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\nature\\nature1.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\nature\\nature1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\nature\\nature10.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\nature\\nature10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\nature\\nature11.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\nature\\nature11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\nature\\nature12.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\nature\\nature12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\nature\\nature2.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\nature\\nature2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\nature\\nature3.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\nature\\nature3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\nature\\nature4.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\nature\\nature4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\nature\\nature5.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\nature\\nature5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\nature\\nature6.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\nature\\nature6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\nature\\nature7.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\nature\\nature7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\nature\\nature8.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\nature\\nature8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\nature\\nature9.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\nature\\nature9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\notfound\\logo-blue.svg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\notfound\\logo-blue.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\bamboo-watch.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\bamboo-watch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\black-watch.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\black-watch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\blue-band.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\blue-band.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\blue-t-shirt.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\blue-t-shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\bracelet.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\bracelet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\brown-purse.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\brown-purse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\chakra-bracelet.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\chakra-bracelet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\galaxy-earrings.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\galaxy-earrings.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\game-controller.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\game-controller.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\gaming-set.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\gaming-set.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\gold-phone-case.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\gold-phone-case.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\green-earbuds.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\green-earbuds.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\green-t-shirt.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\green-t-shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\grey-t-shirt.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\grey-t-shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\headphones.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\headphones.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\light-green-t-shirt.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\light-green-t-shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\lime-band.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\lime-band.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\mini-speakers.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\mini-speakers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\painted-phone-case.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\painted-phone-case.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\pink-band.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\pink-band.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\pink-purse.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\pink-purse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\product-placeholder.svg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\product-placeholder.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\purple-band.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\purple-band.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\purple-gemstone-necklace.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\purple-gemstone-necklace.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\purple-t-shirt.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\purple-t-shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\shoes.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\shoes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\sneakers.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\sneakers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\teal-t-shirt.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\teal-t-shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\yellow-earbuds.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\yellow-earbuds.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\yoga-mat.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\yoga-mat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\images\\product\\yoga-set.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\product\\yoga-set.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\styles\\badges.scss",
+      "PackagePath": "staticwebassets\\assets\\demo\\styles\\badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\styles\\code.css",
+      "PackagePath": "staticwebassets\\assets\\demo\\styles\\code.css"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\styles\\code.scss",
+      "PackagePath": "staticwebassets\\assets\\demo\\styles\\code.scss"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\styles\\flags\\flags.css",
+      "PackagePath": "staticwebassets\\assets\\demo\\styles\\flags\\flags.css"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\demo\\styles\\flags\\flags_responsive.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\styles\\flags\\flags_responsive.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\img\\icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\img\\logo-upperlink.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-upperlink.ico"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\img\\logo-upperlink.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-upperlink.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\img\\logo-upperlink.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-upperlink.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\banner-primeblocks-dark.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\banner-primeblocks-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\banner-primeblocks.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\banner-primeblocks.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\logo-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\logo-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\logo-white.svg",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\logo-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\arya-blue.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\arya-blue.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\arya-green.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\arya-green.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\arya-orange.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\arya-orange.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\arya-purple.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\arya-purple.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\bootstrap4-dark-blue.svg",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\bootstrap4-dark-blue.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\bootstrap4-dark-purple.svg",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\bootstrap4-dark-purple.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\bootstrap4-light-blue.svg",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\bootstrap4-light-blue.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\bootstrap4-light-purple.svg",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\bootstrap4-light-purple.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\fluent-light.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\fluent-light.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\lara-dark-blue.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\lara-dark-blue.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\lara-dark-indigo.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\lara-dark-indigo.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\lara-dark-purple.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\lara-dark-purple.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\lara-dark-teal.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\lara-dark-teal.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\lara-light-blue.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\lara-light-blue.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\lara-light-indigo.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\lara-light-indigo.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\lara-light-purple.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\lara-light-purple.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\lara-light-teal.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\lara-light-teal.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\luna-amber.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\luna-amber.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\luna-blue.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\luna-blue.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\luna-green.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\luna-green.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\luna-pink.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\luna-pink.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\md-dark-deeppurple.svg",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\md-dark-deeppurple.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\md-dark-indigo.svg",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\md-dark-indigo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\md-light-deeppurple.svg",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\md-light-deeppurple.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\md-light-indigo.svg",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\md-light-indigo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\saga-blue.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\saga-blue.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\saga-green.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\saga-green.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\saga-orange.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\saga-orange.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\saga-purple.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\saga-purple.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\tailwind-light.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\tailwind-light.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\vela-blue.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\vela-blue.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\vela-green.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\vela-green.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\vela-orange.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\vela-orange.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\images\\themes\\vela-purple.png",
+      "PackagePath": "staticwebassets\\assets\\layout\\images\\themes\\vela-purple.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\styles\\layout\\_config.scss",
+      "PackagePath": "staticwebassets\\assets\\layout\\styles\\layout\\_config.scss"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\styles\\layout\\_content.scss",
+      "PackagePath": "staticwebassets\\assets\\layout\\styles\\layout\\_content.scss"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\styles\\layout\\_footer.scss",
+      "PackagePath": "staticwebassets\\assets\\layout\\styles\\layout\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\styles\\layout\\_main.scss",
+      "PackagePath": "staticwebassets\\assets\\layout\\styles\\layout\\_main.scss"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\styles\\layout\\_menu.scss",
+      "PackagePath": "staticwebassets\\assets\\layout\\styles\\layout\\_menu.scss"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\styles\\layout\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\layout\\styles\\layout\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\styles\\layout\\_preloading.scss",
+      "PackagePath": "staticwebassets\\assets\\layout\\styles\\layout\\_preloading.scss"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\styles\\layout\\_responsive.scss",
+      "PackagePath": "staticwebassets\\assets\\layout\\styles\\layout\\_responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\styles\\layout\\_topbar.scss",
+      "PackagePath": "staticwebassets\\assets\\layout\\styles\\layout\\_topbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\styles\\layout\\_typography.scss",
+      "PackagePath": "staticwebassets\\assets\\layout\\styles\\layout\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\styles\\layout\\_utils.scss",
+      "PackagePath": "staticwebassets\\assets\\layout\\styles\\layout\\_utils.scss"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\styles\\layout\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\layout\\styles\\layout\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\styles\\layout\\layout.scss",
+      "PackagePath": "staticwebassets\\assets\\layout\\styles\\layout\\layout.scss"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\styles\\theme\\arya-green\\theme.css",
+      "PackagePath": "staticwebassets\\assets\\layout\\styles\\theme\\arya-green\\theme.css"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\styles\\theme\\aura-light-noir\\fonts\\Inter-italic.var.woff2",
+      "PackagePath": "staticwebassets\\assets\\layout\\styles\\theme\\aura-light-noir\\fonts\\Inter-italic.var.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\styles\\theme\\aura-light-noir\\fonts\\Inter-roman.var.woff2",
+      "PackagePath": "staticwebassets\\assets\\layout\\styles\\theme\\aura-light-noir\\fonts\\Inter-roman.var.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\styles\\theme\\aura-light-noir\\theme.css",
+      "PackagePath": "staticwebassets\\assets\\layout\\styles\\theme\\aura-light-noir\\theme.css"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\styles\\theme\\saga-green\\theme.css",
+      "PackagePath": "staticwebassets\\assets\\layout\\styles\\theme\\saga-green\\theme.css"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\assets\\layout\\styles\\theme\\vela-green\\theme.css",
+      "PackagePath": "staticwebassets\\assets\\layout\\styles\\theme\\vela-green\\theme.css"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\color.dae87a04d07ca92b.png",
+      "PackagePath": "staticwebassets\\color.dae87a04d07ca92b.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\common.4a5aaf3e24c4172a.js",
+      "PackagePath": "staticwebassets\\common.4a5aaf3e24c4172a.js"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\flags_responsive.2aca9e17ea53881b.png",
+      "PackagePath": "staticwebassets\\flags_responsive.2aca9e17ea53881b.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\hue.8b1818380241e6ac.png",
+      "PackagePath": "staticwebassets\\hue.8b1818380241e6ac.png"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\main.518c7002e236c64c.js",
+      "PackagePath": "staticwebassets\\main.518c7002e236c64c.js"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\polyfills.a2c7ed08e83e9065.js",
+      "PackagePath": "staticwebassets\\polyfills.a2c7ed08e83e9065.js"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\primeicons.0112589c5695a9ed.ttf",
+      "PackagePath": "staticwebassets\\primeicons.0112589c5695a9ed.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\primeicons.943ab24c43224d29.svg",
+      "PackagePath": "staticwebassets\\primeicons.943ab24c43224d29.svg"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\primeicons.ba3f916dfb64be8c.woff2",
+      "PackagePath": "staticwebassets\\primeicons.ba3f916dfb64be8c.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\primeicons.f8b9e8a4e401b603.woff",
+      "PackagePath": "staticwebassets\\primeicons.f8b9e8a4e401b603.woff"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\primeicons.ffecb2549ad1765a.eot",
+      "PackagePath": "staticwebassets\\primeicons.ffecb2549ad1765a.eot"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\runtime.3ad83bbfe6d69f80.js",
+      "PackagePath": "staticwebassets\\runtime.3ad83bbfe6d69f80.js"
+    },
+    {
+      "Id": "C:\\Users\\Siwar\\Desktop\\soron\\src\\OeuilDeSauron\\wwwroot\\styles.bd89956240df2e2d.css",
+      "PackagePath": "staticwebassets\\styles.bd89956240df2e2d.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OeuilDeSauron.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.OeuilDeSauron.props",
+      "PackagePath": "build\\OeuilDeSauron.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.OeuilDeSauron.props",
+      "PackagePath": "buildMultiTargeting\\OeuilDeSauron.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.OeuilDeSauron.props",
+      "PackagePath": "buildTransitive\\OeuilDeSauron.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

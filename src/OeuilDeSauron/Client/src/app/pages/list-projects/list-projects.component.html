@@ -1,0 +1,155 @@
+<div class="grid">
+    <div class="col-12">
+        <div class="card px-6 py-6">
+            <p-toast></p-toast>
+            <p-toolbar styleClass="mb-4">
+                <ng-template pTemplate="left">
+                    <div class="my-2">
+                        <button pButton pRipple label="New" icon="pi pi-plus" class="p-button-success mr-2" (click)="openNew()"></button>
+                        <button pButton pRipple label="Delete" icon="pi pi-trash" class="p-button-danger" (click)="deleteSelectedProducts()" [disabled]="!selectedProducts || !selectedProducts.length"></button>
+                    </div>
+                </ng-template>
+
+                <ng-template pTemplate="right">
+                  
+                    <button pButton pRipple label="Export" icon="pi pi-upload" class="p-button-help" (click)="dt.exportCSV()"></button>
+                </ng-template>
+            </p-toolbar>
+
+            <p-table #dt [value]="projects" [columns]="cols" responsiveLayout="scroll" [rows]="10" [globalFilterFields]="['id','name','healthCheckUrl','assignedTo']" [paginator]="true" [rowsPerPageOptions]="[10,20,30]" [showCurrentPageReport]="true" currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries" [(selection)]="selectedProducts" selectionMode="multiple" [rowHover]="true" dataKey="id">
+                <ng-template pTemplate="caption">
+                    <div class="flex flex-column md:flex-row md:justify-content-between md:align-items-center">
+                        <h5 class="m-0">Manage Projects</h5>
+                        <span class="block mt-2 md:mt-0 p-input-icon-left">
+                            <i class="pi pi-search"></i>
+                            <input pInputText type="text" (input)="onGlobalFilter(dt, $event)" placeholder="Search..."  class="w-full sm:w-auto"/>
+                        </span>
+                    </div>
+                </ng-template>
+                <ng-template pTemplate="header">
+                    <tr>
+                        <th style="width: 3rem">
+                            <p-tableHeaderCheckbox></p-tableHeaderCheckbox>
+                        </th>
+                        <th pSortableColumn="idProject">Id Project <p-sortIcon field="code"></p-sortIcon></th>
+                        <th pSortableColumn="name">Project Name <p-sortIcon field="name"></p-sortIcon></th>
+                       
+                        <th pSortableColumn="assignedTo">Assigned To <p-sortIcon field="category"></p-sortIcon></th>
+                       
+
+                        <th></th>
+                    </tr>
+                </ng-template>
+                <ng-template pTemplate="body" let-project >
+                    <tr >
+                        <td>
+                            <p-tableCheckbox [value]="project"></p-tableCheckbox>
+                        </td>
+                        <td style="width:35%; min-width:10rem;"><span class="p-column-title">Id Project</span>
+                            {{ project.id}}
+                        </td>
+                        <td style="width:25%; min-width:10rem;">
+                            <span class="p-column-title">Project Name</span>
+                            {{project.name}}
+                        </td>
+                       
+                        <td style="width:25%; min-width:10rem;">
+                            <span class="p-column-title">Assigned To</span>
+                            {{project.assignedTo}}
+                        </td>
+                      
+                      
+                       
+                        <td>
+                            <div class="flex">
+                                <button pButton pRipple icon="pi pi-user" class="p-button-rounded p-button-success mr-2"
+                                (click)="getProjectDetails(project.id)"></button>
+                                <button pButton pRipple icon="pi pi-pencil" class="p-button-rounded p-button-success mr-2" (click)="editProduct(project)"></button>
+                                <button pButton pRipple icon="pi pi-trash" class="p-button-rounded p-button-warning" (click)="deleteProduct(project)"></button>
+                            </div>
+                        </td>
+                    </tr>
+                </ng-template>
+            </p-table>
+        </div>
+
+        <p-dialog [(visible)]="projectDialog" [style]="{width: '450px'}" header="Project Details" [modal]="true" class="p-fluid">
+            <ng-template pTemplate="content">
+               
+                <div class="field">
+                    <label for="name"> Project Name</label>
+                    <input type="text" pInputText id="name" [(ngModel)]="project.name" required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !project.name}"/>
+                    <small class="ng-dirty ng-invalid" *ngIf="submitted && !project.name">Name is required.</small>
+                </div>
+                <div class="field">
+                    <label for="healthCheckUrl">Health Check Url</label>
+                    <input type="text" pInputText id="healthCheckUrl" [(ngModel)]="project.healthcheckUrl" required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !project.healthCheckUrl}"/>
+                    <small class="ng-dirty ng-invalid" *ngIf="submitted && !project.healthcheckUrl">Health Check Url is required.</small>
+                </div>
+                <div class="field">
+                    <label for="siteUrl">Site Url</label>
+                    <input type="text" pInputText id="siteUrl" [(ngModel)]="project.siteUrl" required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !project.healthCheckUrl}"/>
+                    <small class="ng-dirty ng-invalid" *ngIf="submitted && !project.siteUrl">Site Url is required.</small>
+                </div>
+                <div class="field">
+                    <label for="assignedTo">Assigned To</label>
+                    <input type="email" pInputText id="email" [(ngModel)]="project.assignedTo" required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !project.assignedTo}"/>
+                    <small class="ng-dirty ng-invalid" *ngIf="submitted && !project.assignedTo">Email is required.</small>
+                </div>
+                <div class="field">
+                    <label for="isActive">Is Active</label>
+                    <!-- <input type="checkbox" id="isActive" [(ngModel)]="project.isActive" value="true" /> -->
+                    <input type="text" id="isActive" [(ngModel)]="project.isActive" value="true" />
+                </div>
+                <div class="field">
+                    <label for="sendMailifUnhealthy">Send Mail if Unhealthy</label>
+                    <input type="text" id="sendMailifUnhealthy" [(ngModel)]="project.sendMailifUnhealthy" value="true" />
+                </div>
+                <div class="field">
+                    <label for="durationUInMinute">Duration(Minute)</label>
+                    <input type="number" pInputText id="durationUInMinute" [(ngModel)]="project.durationInMinute" required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !project.durationUInMinute}"/>
+                    <small class="ng-dirty ng-invalid" *ngIf="submitted && !project.durationInMinute">Duration Url is required.</small>
+                </div>
+                <div class="field">
+                    <label for="maxResponseTimeInSecond">Max Time Out</label>
+                    <input type="number" pInputText id="maxResponseTimeInSecond" [(ngModel)]="project.maxResponseTimeInSecond" required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !project.maxResponseTimeInSecond}"/>
+                    <small class="ng-dirty ng-invalid" *ngIf="submitted && !project.maxResponseTimeInSecond">Time out is required.</small>
+                </div>
+                <div class="field">
+                    <label for="headerSerialized">Header Serialized</label>
+                    <input type="string" pInputText id="headerSerialized" [(ngModel)]="project.headersSerialized" required autofocus [ngClass]="{'ng-invalid ng-dirty' : submitted && !project.headerSerialized}"/>
+                    <small class="ng-dirty ng-invalid" *ngIf="submitted && !project.headersSerialized">Header Serializedis required.</small>
+                </div>
+
+
+            </ng-template>
+
+            <ng-template pTemplate="footer">
+                <button pButton pRipple label="Cancel" icon="pi pi-times" class="p-button-text" (click)="hideDialog()"></button>
+                <button pButton pRipple label="Save" icon="pi pi-check" class="p-button-text" (click)="saveProject()"></button>
+            </ng-template>
+        </p-dialog>
+
+        <p-dialog [(visible)]="deleteProductDialog" header="Confirm" [modal]="true" [style]="{width:'450px'}">
+            <div class="flex align-items-center justify-content-center">
+                <i class="pi pi-exclamation-triangle mr-3" style="font-size: 2rem"></i>
+                <span *ngIf="project">Are you sure you want to delete <b>{{project.name}}</b>?</span>
+            </div>
+            <ng-template pTemplate="footer">
+                <button pButton pRipple icon="pi pi-times" class="p-button-text" label="No" (click)="deleteProductDialog = false"></button>
+                <button pButton pRipple icon="pi pi-check" class="p-button-text" label="Yes" (click)="confirmDelete()"></button>
+            </ng-template>
+        </p-dialog>
+
+        <p-dialog [(visible)]="deleteProductsDialog" header="Confirm" [modal]="true" [style]="{width:'450px'}">
+            <div class="flex align-items-center justify-content-center">
+                <i class="pi pi-exclamation-triangle mr-3" style="font-size: 2rem"></i>
+                <span>Are you sure you want to delete selected projects?</span>
+            </div>
+            <ng-template pTemplate="footer">
+                <button pButton pRipple icon="pi pi-times" class="p-button-text" label="No" (click)="deleteProductsDialog = false"></button>
+                <button pButton pRipple icon="pi pi-check" class="p-button-text" label="Yes" (click)="confirmDeleteSelected()"></button>
+            </ng-template>
+        </p-dialog>
+    </div>
+</div>
