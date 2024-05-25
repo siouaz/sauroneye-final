@@ -4,7 +4,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ApiService } from 'src/app/services/api.service';
-import { CurrentUser } from 'src/app/authorisation/current-user';
+import { CurrentUser } from 'src/app/models/current-user';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -25,7 +25,8 @@ export class LoginComponent implements OnInit {
 
 
     user: CurrentUser;
-    constructor(private route: ActivatedRoute, private auth: ApiService) { }
+    isAuthenticated : boolean ; 
+    constructor(private route: ActivatedRoute, private auth: ApiService,private router : Router) { }
 
     public ngOnInit(): void {
         // Redirection
@@ -35,8 +36,12 @@ export class LoginComponent implements OnInit {
         }
         this.auth.getCurrentUser().subscribe(res => {
             this.user = res;
+            this.isAuthenticated = this.user.isAuthenticated ;
+            if (this.isAuthenticated){
+                this.router.navigate(['']);
+        }
         })
-
+       
     }
 
 
