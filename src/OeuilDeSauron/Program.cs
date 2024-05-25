@@ -190,14 +190,14 @@ else
 
 
 //
-// app.UseHttpsRedirection();
+ app.UseHttpsRedirection();
 // Static Files
 app.UseStaticFiles(new StaticFileOptions
 {
     OnPrepareResponse = context =>
         context.Context.Response.Headers.Append("Cache-Control", "public,max-age=31536000")
 });
-
+app.MapFallbackToFile("index.html");
 // GDPR
 app.UseCookiePolicy(new CookiePolicyOptions
 {
@@ -236,8 +236,8 @@ app.UseResponseCaching();
 //    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
 //});
 
-app.MapControllerRoute("default", "{controller=App}/{action=Index}");
-app.MapFallbackToFile("index.html");
+app.MapControllerRoute("default", "{controller}/{action=Index}");
+
 app.MapHangfireDashboard("/hangfire", new DashboardOptions
 {
     Authorization = app.Environment.IsProduction()

@@ -2,10 +2,15 @@ import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { AppLayoutComponent } from "./layout/app.layout.component";
 import { LoginComponent } from './auth/login/login.component';
-import { AuthorizationGuard } from './authorisation/authorization.guard';
+
+import { authGuard } from './services/auth.guard';
 
 const routes: Routes = [
-    { path: 'login', component: LoginComponent },
+    
+    {
+        path: 'auth',
+        loadChildren: () => import('../app/auth/auth.module').then(m => m.AuthModule), 
+    },
     {
         path: '',
         component: AppLayoutComponent,
@@ -16,13 +21,13 @@ const routes: Routes = [
             },
             {
                 path: 'pages',
-                loadChildren: () => import('../app/pages/pages.module').then(m => m.PagesModule), canActivate: [AuthorizationGuard], canLoad: [AuthorizationGuard]
-            }
+                loadChildren: () => import('../app/pages/pages.module').then(m => m.PagesModule),
+            },
+            
         ],
-
-        // canLoad: [AuthorizationGuard]
+        canActivate: [authGuard],    
     },
-    { path: '**', redirectTo: 'error/404' }
+    { path: '**', redirectTo: '' }
 ];
 
 @NgModule({

@@ -31,6 +31,21 @@ export class AppMenuComponent implements OnInit {
                         icon: 'pi pi-fw pi-list',
                         routerLink: ['/pages/list-projects']
                     },
+                    {
+                        label: 'Domain Validation',
+                        icon: 'pi pi-fw pi-list',
+                        routerLink: ['/pages/list-projects']
+                    },
+                    {
+                        label: 'SSL Validation',
+                        icon: 'pi pi-fw pi-list',
+                        routerLink: ['/pages/list-projects']
+                    },
+                    {
+                        label: 'User Scenario Validation',
+                        icon: 'pi pi-fw pi-list',
+                        routerLink: ['/pages/list-projects']
+                    },
                     // {
                     //     label: 'Auth',
                     //     icon: 'pi pi-fw pi-user',

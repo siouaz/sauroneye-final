@@ -6331,24 +6331,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Siwar\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\azer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Siwar\\Desktop\\soron\\src\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\Siwar\\Desktop\\soron\\src\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\Siwar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Siwar\\Desktop\\soron\\src\\Domain\\obj\\",
+      "projectPath": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\azer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Domain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Siwar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\azer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6356,18 +6351,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Siwar\\Desktop\\soron\\src\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\Siwar\\Desktop\\soron\\src\\Data\\Data.csproj"
+            "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Data\\Data.csproj"
             },
-            "C:\\Users\\Siwar\\Desktop\\soron\\src\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Siwar\\Desktop\\soron\\src\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -6376,6 +6370,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -6465,7 +6464,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

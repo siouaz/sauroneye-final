@@ -10,19 +10,23 @@
            
                     <div class="text-900 text-3xl font-medium mb-3">Welcome in Sauron EYE</div>
                     <span class="text-600 font-medium">Sign in with Microsoft</span>
+                   
                 </div>
                 <div>
                   <form ngNoForm method="post" [action]="action">
                     <!-- Connexion -->
-                    <button type="submit" class="btn btn-primary btn-lg" name="provider" value="OpenIdConnect">
+                    <button pButton  pRipple type="submit" class="w-full p-3 text-xl" name="provider" value="OpenIdConnect">
                       <!-- <ng-icon name="feather-cloud" class="me-1" /> -->
                       Se connecter avec Microsoft
                     </button>
+            
                     <!-- <button pButton pRipple label="Sign In" type="submit" class="w-full p-3 text-xl" value="OpenIdConnect" ></button> -->
                     <!-- <button type="submit" class="w-full p-3 text-xl" [disabled]="loading">Login with Azure</button> -->
                   
                     </form>
+                 
                 </div>
+          
             </div>
         </div>
     </div>
