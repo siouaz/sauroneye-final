@@ -56,3 +56,18 @@ C:\Users\azer\Desktop\sauroneye-final-main\Models\obj\Debug\net8.0\refint\Models
 C:\Users\azer\Desktop\sauroneye-final-main\Models\obj\Debug\net8.0\Models.pdb
 C:\Users\azer\Desktop\sauroneye-final-main\Models\obj\Debug\net8.0\Models.genruntimeconfig.cache
 C:\Users\azer\Desktop\sauroneye-final-main\Models\obj\Debug\net8.0\ref\Models.dll
+C:\Users\ademb\OneDrive\Bureau\New folder\sauroneye-final\Models\bin\Debug\net8.0\Models.deps.json
+C:\Users\ademb\OneDrive\Bureau\New folder\sauroneye-final\Models\bin\Debug\net8.0\Models.runtimeconfig.json
+C:\Users\ademb\OneDrive\Bureau\New folder\sauroneye-final\Models\bin\Debug\net8.0\Models.dll
+C:\Users\ademb\OneDrive\Bureau\New folder\sauroneye-final\Models\bin\Debug\net8.0\Models.pdb
+C:\Users\ademb\OneDrive\Bureau\New folder\sauroneye-final\Models\obj\Debug\net8.0\Models.csproj.AssemblyReference.cache
+C:\Users\ademb\OneDrive\Bureau\New folder\sauroneye-final\Models\obj\Debug\net8.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ademb\OneDrive\Bureau\New folder\sauroneye-final\Models\obj\Debug\net8.0\Models.AssemblyInfoInputs.cache
+C:\Users\ademb\OneDrive\Bureau\New folder\sauroneye-final\Models\obj\Debug\net8.0\Models.AssemblyInfo.cs
+C:\Users\ademb\OneDrive\Bureau\New folder\sauroneye-final\Models\obj\Debug\net8.0\Models.csproj.CoreCompileInputs.cache
+C:\Users\ademb\OneDrive\Bureau\New folder\sauroneye-final\Models\obj\Debug\net8.0\Models.sourcelink.json
+C:\Users\ademb\OneDrive\Bureau\New folder\sauroneye-final\Models\obj\Debug\net8.0\Models.dll
+C:\Users\ademb\OneDrive\Bureau\New folder\sauroneye-final\Models\obj\Debug\net8.0\refint\Models.dll
+C:\Users\ademb\OneDrive\Bureau\New folder\sauroneye-final\Models\obj\Debug\net8.0\Models.pdb
+C:\Users\ademb\OneDrive\Bureau\New folder\sauroneye-final\Models\obj\Debug\net8.0\Models.genruntimeconfig.cache
+C:\Users\ademb\OneDrive\Bureau\New folder\sauroneye-final\Models\obj\Debug\net8.0\ref\Models.dll
