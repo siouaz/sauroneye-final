@@ -47,7 +47,7 @@ namespace OeuilDeSauron.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetProjectsByType([FromBody] ProjectType projectType)
+        public async Task<IActionResult> GetProjectsByType([FromQuery] ProjectType projectType)
         {
             var query = new GetAllProjectsByTypeQuery(projectType);
             var projects = await _mediator.Send(query);
