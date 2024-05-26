@@ -8,8 +8,8 @@ namespace Models.Enums
 {
     public enum ProjectType
     {
-        UserScenario,
-        SSL,
-        Domain
+        UserScenario=0,
+        SSL=1,
+        Domain=2
     }
 }
