@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using Models.Enums;
 
 namespace OeuilDeSauron.Domain.Models.Project
 {
@@ -13,6 +14,7 @@ namespace OeuilDeSauron.Domain.Models.Project
     {
         public string Id { get; set; }
         public string Name { get; set; }
+        public ProjectType ProjectType { get; set; }
         public string HealthcheckUrl { get; set; }
         public string SiteUrl { get; set; }
         public string AssignedTo { get; set; }
