@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Newtonsoft.Json;
+using Models.Enums;
 
 
 namespace OeuilDeSauron.Models
@@ -38,6 +39,7 @@ namespace OeuilDeSauron.Models
         public bool SendTeamsNotificationIfUnhealthy { get; set; }
         public int DurationInMinute { get; set; }
         public int MaxResponseTimeInSecond { get; set; }
+        public ProjectType Type { get; set; }
 
         // Store the serialized dictionary
         public string HeadersSerialized { get; set; }
