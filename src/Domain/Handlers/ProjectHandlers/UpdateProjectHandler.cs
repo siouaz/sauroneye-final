@@ -25,7 +25,7 @@ namespace OeuilDeSauron.Domain.Handlers.ProjectHandlers
         }
         public async Task<bool> Handle(UpdateProjectCommand request, CancellationToken cancellationToken)
         {
-            request.Project.Id = request.Id;
+
             _context.Entry(request.Project).State = EntityState.Modified;
             await _context.SaveChangesAsync();
 

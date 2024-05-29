@@ -11,6 +11,5 @@ namespace OeuilDeSauron.Domain.Queries.ProjectQueries
 {
     public class GetAllProjectsQuery : IRequest<List<ProjectResponse>>
     {
-
     }
 }

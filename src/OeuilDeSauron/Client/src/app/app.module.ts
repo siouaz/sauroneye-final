@@ -13,6 +13,8 @@ import { NodeService } from './demo/service/node.service';
 import { PhotoService } from './demo/service/photo.service';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
+import { AuthorizationGuard } from './authorisation/authorization.guard';
+import { AuthorizationService } from './authorisation/authorization.service';
 
 
 // export function MSALInstanceFactory(): IPublicClientApplication {
@@ -48,8 +50,19 @@ import { ReactiveFormsModule } from '@angular/forms';
     IconService,
     NodeService,
     PhotoService,
-    ProductService
-   
+    ProductService,
+    AuthorizationService
+    // {
+    //   provide: MSAL_INSTANCE,
+    //   useFactory: MSALInstanceFactory
+    // },
+    // {
+    //   provide: MSAL_GUARD_CONFIG,
+    //   useFactory: MSALGuardConfigFactory
+    // },
+    // MsalService,
+    // MsalGuard,
+    // MsalBroadcastService,
 
 
   ],
