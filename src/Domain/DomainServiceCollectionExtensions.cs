@@ -1,4 +1,5 @@
 using System;
+
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -6,8 +7,10 @@ using Microsoft.Extensions.Hosting;
 using MediatR;
 using FluentValidation;
 using System.Reflection;
+
 using OeuilDeSauron.Data.Infrastructure;
 using OeuilDeSauron.Data.Infrastructure.Repositories;
+using OeuilDeSauron.Data.Items;
 using OeuilDeSauron.Domain;
 using OeuilDeSauron.Domain.Queries;
 using OeuilDeSauron.Infrastructure;
@@ -62,10 +65,14 @@ public static class DomainServiceCollectionExtensions
         services.AddTransient<IResources, Resources>();
 
         // Repositories
+        services.AddScoped<IItemRepository, ItemRepository>();
+        services.AddScoped<IListRepository, ListRepository>();
         services.AddScoped<IUserLoginRepository, UserLoginRepository>();
         services.AddScoped<IUserRepository, UserRepository>();
 
         // Queries
+        services.AddScoped<IItemQueries, ItemQueries>();
+        services.AddScoped<IListQueries, ListQueries>();
         services.AddScoped<IRoleQueries, RoleQueries>();
         services.AddScoped<IUserQueries, UserQueries>();
 

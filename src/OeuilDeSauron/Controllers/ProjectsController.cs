@@ -16,7 +16,6 @@ using OeuilDeSauron.Domain.Jobs;
 using OeuilDeSauron.Domain.Models.Project;
 using Azure.Core;
 using AutoMapper;
-using Models.Enums;
 
 
 
@@ -38,7 +37,7 @@ namespace OeuilDeSauron.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet("all")]
+        [HttpGet]
         public async Task<IActionResult> GetProjects()
         {
             var query = new GetAllProjectsQuery();
@@ -46,13 +45,7 @@ namespace OeuilDeSauron.Controllers
             return Ok(projects);
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetProjectsByType([FromQuery] ProjectType projectType)
-        {
-            var query = new GetAllProjectsByTypeQuery(projectType);
-            var projects = await _mediator.Send(query);
-            return Ok(projects);
-        }
+
 
         [HttpPost]
         public async Task<IActionResult> PostProject([FromBody] ProjectRequest projectRequest)
