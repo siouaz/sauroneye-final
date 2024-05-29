@@ -28,9 +28,9 @@ namespace OeuilDeSauron.Domain.Services
             var client = new RestClient();
 
             var request = new RestRequest(project.HealthcheckUrl, Method.Get);
-            foreach(var headerItem in project.Headers)
+            foreach (var headerItem in project.Headers)
             {
-                request.AddHeader(headerItem.Key,headerItem.Value);
+                request.AddHeader(headerItem.Key, headerItem.Value);
             }
             var stopwatch = Stopwatch.StartNew();
             var response = await client.ExecuteAsync(request);
@@ -40,21 +40,23 @@ namespace OeuilDeSauron.Domain.Services
             var ApiHealth = new ApiHealth
             {
                 Duration = duration,
-                ProjectName= project.Name,
-                ProjectId= project.Id
+                ProjectName = project.Name,
+                ProjectId = project.Id,
+                HealthCheckResult = HealthCheckResult.Unhealthy()
             };
-            Dictionary<string, object> data = new Dictionary<string, object>
+            Dictionary<string, object> CheckData = new Dictionary<string, object>
             {
                 { "StatusCode", response.StatusCode.ToString() },
                 { "StatusDescription",response.StatusDescription.ToString() },
                 { "IsSuccessful",response.IsSuccessful.ToString() },
+                { "Exception",response.ErrorException.ToString() },
             };
 
             if (response.IsSuccessful)
             {
                 if (duration.TotalSeconds > project.MaxResponseTimeInSecond)
                 {
-                    ApiHealth.HealthCheckResult = HealthCheckResult.Unhealthy($"Warning ! API Healthy But Response Time Superior than Max Duration {duration.TotalSeconds}",response.ErrorException, data);
+                    ApiHealth.HealthCheckResult = HealthCheckResult.Unhealthy($"Warning ! API Healthy But Response Time Superior than Max Duration {duration.TotalSeconds}", response.ErrorException, CheckData);
                     if (project.SendMailIfUnhealthy)
                     {
                         var subject = $"Your WebSite {project.Name} API Is Unhealthy";
@@ -64,22 +66,22 @@ namespace OeuilDeSauron.Domain.Services
                 }
                 else
                 {
-                    ApiHealth.HealthCheckResult = HealthCheckResult.Healthy("API Healthy , Up and Running", data);
+                    ApiHealth.HealthCheckResult = HealthCheckResult.Healthy("API Healthy , Up and Running", CheckData);
                 }
             }
             else
             {
-                ApiHealth.HealthCheckResult = HealthCheckResult.Unhealthy($"API Unhealthy , Something went wrong .. see data for more details .. Duration {duration.TotalSeconds}", response.ErrorException, data);
+                ApiHealth.HealthCheckResult = HealthCheckResult.Unhealthy($"API Unhealthy , Something went wrong .. see data for more details .. Duration {duration.TotalSeconds}", data: CheckData);
                 if (project.SendMailIfUnhealthy)
                 {
-                var subject = $"Your WebSite {project.Name} API Is Unhealthy";
-                var body = $"Your WebSite API Is Unhealthy , check your account for more details , {response.ErrorException}";
-                await _emailSender.SendEmailAsync(project.AssignedTo,subject,body);
+                    var subject = $"Your WebSite {project.Name} API Is Unhealthy";
+                    var body = $"Your WebSite API Is Unhealthy , check your account for more details , {response.ErrorException}";
+                    await _emailSender.SendEmailAsync(project.AssignedTo, subject, body);
                 }
             }
 
             return ApiHealth;
         }
-       
+
     }
 }
