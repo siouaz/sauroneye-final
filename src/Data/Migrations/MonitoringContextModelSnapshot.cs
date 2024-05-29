@@ -289,74 +289,6 @@ namespace OeuilDeSauron.Data.Migrations
                     b.ToTable("UserRoles");
                 });
 
-            modelBuilder.Entity("OeuilDeSauron.Data.Items.Item", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Code")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Data")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Extra")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("ListId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ListId");
-
-                    b.ToTable("Items");
-                });
-
-            modelBuilder.Entity("OeuilDeSauron.Data.Items.ItemRelation", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("ChildId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ParentId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("ItemRelations");
-                });
-
-            modelBuilder.Entity("OeuilDeSauron.Data.Items.List", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<bool>("Editable")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Lists");
-                });
-
             modelBuilder.Entity("OeuilDeSauron.Models.Project", b =>
                 {
                     b.Property<string>("Id")
@@ -402,6 +334,9 @@ namespace OeuilDeSauron.Data.Migrations
                     b.Property<string>("SiteUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Type")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -521,22 +456,6 @@ namespace OeuilDeSauron.Data.Migrations
                     b.Navigation("Role");
 
                     b.Navigation("User");
-                });
-
-            modelBuilder.Entity("OeuilDeSauron.Data.Items.Item", b =>
-                {
-                    b.HasOne("OeuilDeSauron.Data.Items.List", "List")
-                        .WithMany("Items")
-                        .HasForeignKey("ListId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("List");
-                });
-
-            modelBuilder.Entity("OeuilDeSauron.Data.Items.List", b =>
-                {
-                    b.Navigation("Items");
                 });
 
             modelBuilder.Entity("OeuilDeSauron.Data.Identity.User", b =>

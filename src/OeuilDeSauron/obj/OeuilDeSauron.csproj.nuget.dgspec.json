@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\OeuilDeSauron\\OeuilDeSauron.csproj": {}
+    "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\OeuilDeSauron\\OeuilDeSauron.csproj": {}
   },
   "projects": {
-    "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\Models\\Models.csproj": {
+    "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\azer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\Models\\obj\\",
+        "projectPath": "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\ademb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\azer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ademb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -96,21 +91,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Data\\Data.csproj": {
+    "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\azer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Data\\obj\\",
+        "projectPath": "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\ademb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\azer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ademb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -124,8 +119,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\Models\\Models.csproj"
+              "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\Models\\Models.csproj"
               }
             }
           }
@@ -134,11 +129,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -212,21 +202,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Domain\\Domain.csproj": {
+    "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\azer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\ademb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\azer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ademb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -240,11 +230,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Data\\Data.csproj"
+              "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\Data\\Data.csproj"
               },
-              "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -253,11 +243,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -347,21 +332,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\azer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ademb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\azer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ademb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -381,11 +366,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -462,21 +442,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\OeuilDeSauron\\OeuilDeSauron.csproj": {
+    "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\OeuilDeSauron\\OeuilDeSauron.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\OeuilDeSauron\\OeuilDeSauron.csproj",
+        "projectUniqueName": "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\OeuilDeSauron\\OeuilDeSauron.csproj",
         "projectName": "OeuilDeSauron",
-        "projectPath": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\OeuilDeSauron\\OeuilDeSauron.csproj",
-        "packagesPath": "C:\\Users\\azer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\OeuilDeSauron\\obj\\",
+        "projectPath": "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\OeuilDeSauron\\OeuilDeSauron.csproj",
+        "packagesPath": "C:\\Users\\ademb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\OeuilDeSauron\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\azer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ademb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -490,11 +470,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Data\\Data.csproj"
+              "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\Data\\Data.csproj"
               },
-              "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\azer\\Desktop\\sauroneye-final-main\\src\\Domain\\Domain.csproj"
+              "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\ademb\\OneDrive\\Bureau\\New folder\\sauroneye-final\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -503,11 +483,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -660,7 +635,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -14,7 +14,7 @@ namespace OeuilDeSauron.Domain.Services
     {
         public async Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
-            var fromMail = "oeildesauron@outlook.com";
+            var fromMail = "oeildesauron2@outlook.com";
             var fromPassword = "HealthCheck123!";
 
             var message = new MailMessage();
