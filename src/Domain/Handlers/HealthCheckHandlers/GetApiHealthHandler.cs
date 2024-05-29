@@ -42,7 +42,7 @@ namespace OeuilDeSauron.Domain.Handlers.HealthCheckHandlers
             var result = await _healthCheck.CheckHealthAsync(project);
             //add the ApiHealth to the Db
             var command = new AddApiHealthCommand(result);
-            var test = await _mediator.Send(command);
+            await _mediator.Send(command);
             return result;
         }
     }
